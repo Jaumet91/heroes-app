@@ -11,7 +11,7 @@ export const Navbar = () => {
   const handleLogout = () => {
     dispatch({ type: types.logout });
 
-    navigate('/heroes-app/login', {
+    navigate('/login', {
       replace: true,
     });
   };
