@@ -13,7 +13,7 @@ export const AppRouter = () => {
         {/* <Route path='/login' element={<LooginScreen />} /> */}
 
         <Route
-          path='/login'
+          path='/heroes-app/login'
           element={
             <PublicRoute>
               <LoginScreen />
@@ -22,7 +22,7 @@ export const AppRouter = () => {
         />
 
         <Route
-          path='/*'
+          path='/heroes-app/*'
           element={
             <PrivateRoute>
               <DashboardRoutes />
