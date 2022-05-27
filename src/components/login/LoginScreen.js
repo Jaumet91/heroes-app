@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../auth/authContext';
 import { types } from '../../types/types';
 
-export const LooginScreen = () => {
+export const LoginScreen = () => {
   const navigate = useNavigate();
 
   const { dispatch } = useContext(AuthContext);
