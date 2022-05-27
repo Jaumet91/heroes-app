@@ -26,7 +26,7 @@ export const LooginScreen = () => {
 
   return (
     <div className='container mt-5'>
-      <h1>LooginScreen</h1>
+      <h1>LoginScreen</h1>
       <hr />
       <button className='btn btn-primary' onClick={handleLogin}>
         Login
